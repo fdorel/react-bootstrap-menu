@@ -1,0 +1,23 @@
+/* .dialogs{
+    width: 100%;
+    padding: 10%;
+    color: #fff;
+}*/
+
+.dialogs, .messages {
+    padding: 10%;
+    color: #ffffff !important;
+    font-size: 2rem;
+    background: slategrey;
+    border-radius: 10px;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.whites {
+    background: #ffffff !important;
+}
+
+

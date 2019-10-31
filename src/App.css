@@ -1,0 +1,27 @@
+/* css grid is divided into 12 fractions, columns or row */
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+.app-wrapper {
+    background-image: linear-gradient(to right, #403b4a, #6a525e, #916c69, #aa8e75, #b3b58d);
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-areas: "h h" "n n" "c c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-image: linear-gradient(to right, #403b4a, #6a525e, #916c69, #aa8e75, #b3b58d);
+    padding: 10px;
+}
+
+.row {
+    margin: 20px;
+}

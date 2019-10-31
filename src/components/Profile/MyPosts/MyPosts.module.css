@@ -1,0 +1,17 @@
+.item {
+    color: bisque;
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, #403b4a, #6a525e, #916c69, #aa8e75, #b3b58d);
+}
+
+textarea .form-control {
+    margin: 5rem !important;
+    color: bisque;
+}
+
+.row {
+    margin: 20px;
+}
